@@ -10,4 +10,4 @@ startup: services
 boot: auto
 host_network: true
 init: false
-image: "local/poolcontroller"
+
