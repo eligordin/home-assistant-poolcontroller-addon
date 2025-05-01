@@ -1,0 +1,7 @@
+{
+  "build_from": {
+    "amd64": "node:18",
+    "aarch64": "node:18",
+    "armv7": "node:18"
+  }
+}
