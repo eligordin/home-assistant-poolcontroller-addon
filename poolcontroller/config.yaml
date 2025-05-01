@@ -10,4 +10,5 @@ startup: services
 boot: auto
 host_network: true
 init: false
-
+map:
+  - config:rw
