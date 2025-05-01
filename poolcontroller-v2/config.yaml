@@ -1,6 +1,6 @@
-name: "PoolController (AquaLink RS)V2"
+name: "PoolController (AquaLink RS)"
 description: "Local control of Jandy AquaLink RS using RS485 and ESP32"
-version: "1.0.0"
+version: "1.0.1"
 slug: "poolcontroller-v2"
 arch:
   - amd64
@@ -10,5 +10,6 @@ startup: services
 boot: auto
 host_network: true
 init: false
+image: "chatgptassist/poolcontroller-custom:latest"
 map:
   - config:rw
