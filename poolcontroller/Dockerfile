@@ -10,4 +10,5 @@ WORKDIR /opt/poolController
 
 #COPY config.json /opt/poolController/config/config.json
 
-CMD ["npm", "run", "start"]
+CMD ["node", "dist/app.js", "--config", "/config/poolcontroller/config.json"]
+
