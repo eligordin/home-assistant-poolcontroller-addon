@@ -8,4 +8,6 @@ RUN git clone https://github.com/tagyoureit/nodejs-poolController /opt/poolContr
 
 WORKDIR /opt/poolController
 
+COPY config.json /opt/poolController/config/config.json
+
 CMD ["npm", "run", "start"]
