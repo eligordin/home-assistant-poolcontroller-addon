@@ -1,4 +1,4 @@
-name: "PoolController (AquaLink RS)"
+name: "PoolController (AquaLink RS)V2"
 description: "Local control of Jandy AquaLink RS using RS485 and ESP32"
 version: "1.0.0"
 slug: "poolcontroller-v2"
